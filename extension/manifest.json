@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
-    "name": "Shinigami Eyes",
-    "author": "Shinigami Eyes",
+    "name": "Jay's Eyes",
+    "author": "Jay's Eyes",
     "version": "1.0.25",
-    "homepage_url": "https://shinigami-eyes.github.io/",
-    "description": "Highlights transphobic/anti-LGBT and trans-friendly subreddits/users/facebook pages/groups with different colors.",
+    "homepage_url": "https://jays-eyes.github.io/",
+    "description": "A fork of Shinigami Eyes that marks ableist and disabled/mentally ill-friendly subreddits/users/facebook pages/groups with different colors.",
     "icons": {
         "48": "icons/icon-48.png",
         "128": "icons/icon-128-96.png"
@@ -60,8 +60,8 @@
         }
     ],
     "web_accessible_resources": [
-        "data/transphobic.dat",
-        "data/t-friendly.dat"
+        "data/ableist.dat",
+        "data/da-friendly.dat"
     ],
     "background": {
         "scripts": [
@@ -76,12 +76,12 @@
     "permissions": [
         "contextMenus",
         "storage",
-        "*://shinigami-eyes.azurewebsites.net/*",
+        "",
         "*://*/*"
     ],
     "applications": {
         "gecko": {
-            "id": "shinigamieyes@shinigamieyes",
+            "id": "s",
             "strict_min_version": "60.0"
         }
     }
